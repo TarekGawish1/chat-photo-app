@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <body>
+
+<body>
+    <main>
         <h1>CatPhotoApp</h1>
         <section>
             <h2>cat Photos</h2>
-            <p>see more <a href="https://www.pinterest.com/search/pins/?q=cat%20photos&rs=typed" target="_blank" >cat photo</a> in our gallery</p>
+            <p>see more <a href="https://www.pinterest.com/search/pins/?q=cat%20photos&rs=typed" target="_blank">cat
+                    photo</a> in our gallery</p>
         </section>
         <figure>
-            <img src="https://i.pinimg.com/564x/24/73/c0/2473c024b55a2ad96677ea189c1df227.jpg" height="350" alt="cute cat">
+            <img src="https://i.pinimg.com/564x/24/73/c0/2473c024b55a2ad96677ea189c1df227.jpg" height="350"
+                alt="cute cat">
         </figure>
         <section>
             <h2>Cat Lists</h2>
@@ -18,8 +22,10 @@
                 <li>lasagna</li>
             </ul>
             <figure>
-                
-                <img src="https://i.pinimg.com/564x/ef/e0/54/efe05460eaa64cccedca41529ce95f86.jpg" height="350" alt="fish"><figcaption>cats <em>love</em> fish</figcaption>
+
+                <img src="https://i.pinimg.com/564x/ef/e0/54/efe05460eaa64cccedca41529ce95f86.jpg" height="350"
+                    alt="fish">
+                <figcaption>cats <em>love</em> fish</figcaption>
             </figure>
 
             <h3>Top 3 things cats hate:</h3>
@@ -33,5 +39,26 @@
                 <figcaption>cats <strong>hate</strong> other cats</figcaption>
             </figure>
         </section>
-    </body>
+        <section>
+            <h2>Cat Form</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <input type="radio" name="indoor-outdoor" value="indoor" checked="">indoor
+                    <input type="radio" name="indoor-outdoor" value="outdoor">outdoor
+                </fieldset>
+                <fieldset>
+                    <legend>what's your cat's personality?</legend>
+                    <input type="checkbox" checked="" value="loving">Loving
+                    <input type="checkbox" value="lazy">Lazy
+                    <input type="checkbox" value="energetic">Energetic
+                </fieldset>
+                <input type="text" name="catphotoURL" placeholder="cat photo URL" required="">
+                <button type="submit">submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</body>
+
 </html>
